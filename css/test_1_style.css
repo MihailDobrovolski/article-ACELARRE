@@ -1,0 +1,97 @@
+body.landing {
+  background-color: white;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 12px;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.block {
+  position: relative;
+  background-color: #FFD700;
+  display: block;
+  padding: 30px 50px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.block_2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block_2 h1 {
+  font-size: 70px;
+  margin-top: -25px;
+}
+
+.Button{
+  display: block;
+  padding: 10px 10px;
+  background-color: #FF4500;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 30vw;
+}
+
+.ButtonText {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.test_image {
+  display: flex;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: row-reverse;
+}
+
+@media  (max-width: 792px) {
+
+  .block_2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+@media  (min-width: 1199px) {
+
+  .block_2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1030px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .text {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Button{
+
+  }
+
+}
